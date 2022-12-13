@@ -106,12 +106,34 @@
   width: 100%;
   height: 60%;
   margin-left: 30px;
+  margin-top: 35px;
+}
+.wrapper .main .topbar .leftside .block-top .oval-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 11px;
+  margin-top: 4px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: #eaeaea;
+}
+.wrapper .main .topbar .leftside .block-top .oval-logo img {
+  width: 12px;
+  height: 20px;
 }
 .wrapper .main .topbar .leftside .block-top .logo {
   width: 40px;
   height: 40px;
   background-color: orange;
   border-radius: 10px;
+}
+.wrapper .main .topbar .leftside .block-top p {
+  font-family: Helvetica;
+  font-size: 32px;
+  color: #131313;
+  margin-left: 15px;
 }
 .wrapper .main .topbar .leftside .block-down {
   display: flex;
@@ -153,18 +175,37 @@
 .wrapper .main .topbar .rightside .buttons .share {
   width: 67px;
   height: 30px;
-  background-color: #eaeaea;
-  border-radius: 15px;
   border: none;
-  margin-right: 15px;
-  margin-left: 15px;
+  border-radius: 15px;
+  margin-left: 10px;
+  background-color: #eaeaea;
+  cursor: pointer;
+  font-size: 14px;
 }
 .wrapper .main .topbar .rightside .buttons .chat {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   width: 81px;
   height: 30px;
-  background-color: #fff8dd;
-  border-radius: 15px;
   border: none;
+  margin-left: 15px;
+  padding-right: 14px;
+  padding-left: 5px;
+  border-radius: 15px;
+  background-color: #FFF8DD;
+  color: #ffc200;
+  font-size: 14px;
+  cursor: pointer;
+}
+.wrapper .main .topbar .rightside .buttons .chat::before {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url(./assets/button.svg);
+  content: " ";
 }
 .wrapper .main .content {
   display: flex;

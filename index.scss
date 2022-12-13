@@ -172,33 +172,156 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
             .main-content{
                 display: flex;
                 flex-direction: column;
-                height: 500px;
-                width: 500px;
+                height: fit-content;
+                width: 730px;
                 margin-top: 30px;
                 background-color: white;
                 border-radius: 8px;
+                overflow: hidden;
+                .text-day{
+                    display: flex;
+                    margin:35px 655px 0px 30px;
+                    opacity: 0.5;
+                    font-family: Helvetica;
+                    font-size: 14px;
+                    color: #131313;
+                }
                 .message1{
-                    
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 32px;
+                    margin-left: 30px;
+                    .img{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 20px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100px;
+                        background-color: #cef9c6;
+                    }
+                    .text1{
+                        width: 461px;
+                        height: 40px;
+                        font-family: Helvetica;
+                        font-size: 16px;
+                        color: #131313;
+                        line-height: 20px;
+                    }
+                    .text-time-1{
+                        margin-left: 96px;
+                        opacity: 0.7;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        color: #131313;
+                        text-align: right;
+                        line-height: 20px;
+                    }
                 }
                 .message2{
-
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    .text2{
+                        width: 461px;
+                        height: 40px;
+                        font-family: Helvetica;
+                        font-size: 16px;
+                        color: #131313;
+                        line-height: 20px;
+                    }
+                    .text-time-2{
+                        margin-left: 96px;
+                        opacity: 0.7;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        color: #131313;
+                        text-align: right;
+                        line-height: 20px;
+                    }
+                    .img-second{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 20px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100px;
+                        background-color: #FFF8DD;
+                        img{
+                            width: 35px;
+                            height: 16px;
+                        }
+                    }
                 }
                 .message3{
-
+                    display: flex;
+                    align-items: center;
+                    width: 551px;
+                    height: 88px;
+                    background-color: #f7f6f3;
+                    border-radius: 10px;
+                    margin-left: 91px;
+                    margin-top: 20px;
+                    .text3{
+                        width: 492px;
+                        height: 48px;
+                        padding: 20px 30px 20px 29px;
+                        font-family: Helvetica;
+                        font-size: 15px;
+                        color: #131313;
+                    }
                 }
                 .message4{
-                    .photos{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 20px;
+                    .text4{
+                        width: 461px;
+                        height: 40px;
+                    }
+                    .text-time-3{
+                        margin-left: 96px;
+                        opacity: 0.7;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        color: #131313;
+                        text-align: right;
+                        line-height: 20px;
+                    }
+                    .img-triple{
                         display: flex;
-                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 20px;
+                        margin-left: 30px;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100px;
+                        background-color: #FFF8DD;
                         img{
-                            width: 100px;
-                            height: 100px;
-                            border-radius: 8px;
-                            margin: 5px;
+                            width: 35px;
+                            height: 16px;
                         }
+                    }
+                }
+                .photos{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 20px;
+                    margin-bottom: 70px;
+                    margin-left: 85px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 8px;
+                        margin: 5px;
                     }
                 }
             }

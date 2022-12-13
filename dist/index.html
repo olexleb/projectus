@@ -7,16 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="normalize.css">
+    <script src="/active.js"> </script>
   </head>
   <body> 
     <div class="wrapper">
       <div class="leftbar">
         <div class="logo-name"><img class="logo1" src="./assets/Logo@3x.svg" alt="logo">
-          <p>PROJECTUS</p><img src="./assets/Search@3x.svg" alt="search">
+          <p>PROJECTUS</p><img class="search" src="./assets/Search@3x.svg" alt="search">
         </div>
         <div class="profile"><img src="./images/jeangonzales.png" alt="jean">
-          <p>Jean Gonzales</p><br>
-          <p>Product Owner</p><img src="./assets/tri-tochki.svg" alt="">
+          <div class="profile-text">
+            <p>Jean Gonzales</p>
+            <p>Product Owner</p>
+          </div>
+          <img class="dots" src="./assets/tri-tochki.svg" alt="dots">
         </div>
         <div class="tasks">
           <div class="leftside">
@@ -46,10 +50,10 @@
             </div>
             <div class="block-down">
               <ul>
-                <li><a href="#">Tasks</a></li>
+                <li class="active"><a href="#">Tasks</a></li>
                 <li><a href="#">Kanban</a></li>
                 <li><a href="#">Activity</a></li>
-                <li class="active"><a href="#">Calendar</a></li>
+                <li><a href="#">Calendar</a></li>
                 <li><a href="#">Files</a></li>
               </ul>
             </div>

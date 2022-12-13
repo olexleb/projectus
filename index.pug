@@ -7,22 +7,20 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="index.css")
         link(rel="stylesheet", href="normalize.css") 
-        script(src="/dist/active.js")
-        script(src="/dist/dist/active.dev.js")  
-        script(src="/lol.js") 
+        script(src="/active.js") 
     body 
         .wrapper
             .leftbar
                 .logo-name
                     img.logo1(src="./assets/Logo@3x.svg", alt="logo")
                     p PROJECTUS
-                    img(src="./assets/Search@3x.svg", alt="search")
+                    img.search(src="./assets/Search@3x.svg", alt="search")
                 .profile
                     img(src="./images/jeangonzales.png", alt="jean")
-                    p Jean Gonzales
-                    br
-                    p Product Owner
-                    img(src="./assets/tri-tochki.svg", alt="")
+                    .profile-text
+                        p Jean Gonzales
+                        p Product Owner
+                    img.dots(src="./assets/tri-tochki.svg", alt="dots")
                 .tasks
                     .leftside
                         p 372
@@ -49,13 +47,13 @@ html(lang="en")
                                 img(src="./assets/tri-tochki.svg", alt="dots")
                         .block-down
                             ul
-                                li
+                                li.active
                                     a(href="#") Tasks
                                 li
                                     a(href="#") Kanban
                                 li
                                     a(href="#") Activity
-                                li.active
+                                li
                                     a(href="#") Calendar
                                 li
                                     a(href="#") Files

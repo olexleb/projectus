@@ -6,7 +6,10 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
         link(rel="stylesheet", href="index.css")
-        link(rel="stylesheet", href="normalize.css")
+        link(rel="stylesheet", href="normalize.css") 
+        script(src="/dist/active.js")
+        script(src="/dist/dist/active.dev.js")  
+        script(src="/lol.js") 
     body 
         .wrapper
             .leftbar
@@ -47,15 +50,15 @@ html(lang="en")
                         .block-down
                             ul
                                 li
-                                    a(href="") Tasks
+                                    a(href="#") Tasks
                                 li
-                                    a(href="") Kanban
+                                    a(href="#") Kanban
                                 li
-                                    a(href="") Activity
+                                    a(href="#") Activity
+                                li.active
+                                    a(href="#") Calendar
                                 li
-                                    a(href="") Calendar
-                                li
-                                    a(href="") Files
+                                    a(href="#") Files
                     .rightside
                         .profiles
                             img(src="./images/wepik-photo-mode-20221017-22272.png", alt="profile1")

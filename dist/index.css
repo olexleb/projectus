@@ -148,6 +148,12 @@
 }
 .wrapper .main .topbar .leftside .block-down ul li a {
   text-decoration: none;
+  color: black;
+}
+.wrapper .main .topbar .leftside .block-down ul li.active a {
+  opacity: 1;
+  border-bottom: solid;
+  border-color: yellow;
 }
 .wrapper .main .topbar .rightside {
   display: flex;

@@ -186,14 +186,16 @@
 }
 .wrapper .main .topbar .leftside .block-down {
   display: flex;
+  margin-top: 10px;
 }
 .wrapper .main .topbar .leftside .block-down ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  padding-left: 30px;
 }
 .wrapper .main .topbar .leftside .block-down ul li {
-  padding: 10px;
+  padding-right: 30px;
 }
 .wrapper .main .topbar .leftside .block-down ul li a {
   text-decoration: none;
@@ -202,6 +204,7 @@
 .wrapper .main .topbar .leftside .block-down ul li.active a {
   opacity: 1;
   border-bottom: solid;
+  padding-bottom: 14px;
   border-color: yellow;
 }
 .wrapper .main .topbar .rightside {

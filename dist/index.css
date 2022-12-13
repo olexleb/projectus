@@ -174,10 +174,20 @@
 }
 .wrapper .main .content .main-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 500px;
   width: 500px;
   margin-top: 30px;
   background-color: white;
   border-radius: 8px;
+}
+.wrapper .main .content .main-content .message4 .photos {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper .main .content .main-content .message4 .photos img {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  margin: 5px;
 }

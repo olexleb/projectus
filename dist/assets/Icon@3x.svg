@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Test" transform="translate(-534.000000, -268.000000)" fill="#1D201C">
+            <g id="Activity" transform="translate(490.000000, 166.000000)">
+                <g id="Today" transform="translate(30.000000, 35.000000)">
+                    <g id="Item" transform="translate(0.000000, 51.000000)">
+                        <path d="M25.5611951,16.4402894 C24.976122,15.8552409 24.0250031,15.8522406 23.4369296,16.4372892 L18.4983123,21.3786994 L16.56007,19.4405385 C15.9749969,18.8554899 15.023878,18.8554899 14.4388049,19.4405385 C13.8537317,20.0255871 13.8537317,20.976666 14.4388049,21.5617146 L17.4391799,24.5619636 C17.7302163,24.8529878 18.1142643,25 18.4983123,25 C18.8823603,25 19.2664083,24.8529878 19.5604451,24.5619636 L25.5611951,18.5614655 C26.1462683,17.976417 26.1462683,17.025338 25.5611951,16.4402894 Z" id="Icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

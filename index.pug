@@ -7,7 +7,6 @@ html(lang="en")
         title Document
         link(rel="stylesheet", href="index.css")
         link(rel="stylesheet", href="normalize.css") 
-        script(src="/active.js") 
     body 
         .wrapper
             .leftbar
@@ -30,13 +29,13 @@ html(lang="en")
                         p Open Tasks
                 .menu
                     p MENU
-                    ul
-                        li
-                            a(href="#") Home
-                        li
-                            a(href="#") My Tasks
-                        li
-                            a(href="#") Notifications
+                    .menu-link
+                        a(href="") Home
+                    .menu-link
+                        a(href="") My Tasks 
+                    .menu-link
+                        a(href="") Notifications 
+                        
             .main
                 .topbar
                     .leftside
@@ -47,11 +46,11 @@ html(lang="en")
                                 img(src="./assets/tri-tochki.svg", alt="dots")
                         .block-down
                             ul
-                                li.active
+                                li
                                     a(href="#") Tasks
                                 li
                                     a(href="#") Kanban
-                                li
+                                li.active
                                     a(href="#") Activity
                                 li
                                     a(href="#") Calendar
@@ -98,3 +97,5 @@ html(lang="en")
                                 img(src="./images/img2.jpg", alt="nature2")
                                 img(src="./images/img3.jpg", alt="nature3")
                                 img(src="./images/img4.jpg", alt="nature4")
+script(src="index.js") 
+            

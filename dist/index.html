@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="normalize.css">
-    <script src="/active.js"> </script>
   </head>
   <body> 
     <div class="wrapper">
@@ -33,11 +32,9 @@
         </div>
         <div class="menu">
           <p>MENU</p>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">My Tasks</a></li>
-            <li><a href="#">Notifications</a></li>
-          </ul>
+          <div class="menu-link"><a href="">Home</a></div>
+          <div class="menu-link"><a href="">My Tasks </a></div>
+          <div class="menu-link"><a href="">Notifications </a></div>
         </div>
       </div>
       <div class="main">
@@ -49,9 +46,9 @@
             </div>
             <div class="block-down">
               <ul>
-                <li class="active"><a href="#">Tasks</a></li>
+                <li><a href="#">Tasks</a></li>
                 <li><a href="#">Kanban</a></li>
-                <li><a href="#">Activity</a></li>
+                <li class="active"><a href="#">Activity</a></li>
                 <li><a href="#">Calendar</a></li>
                 <li><a href="#">Files</a></li>
               </ul>
@@ -109,3 +106,4 @@
     </div>
   </body>
 </html>
+<script src="index.js"> </script>
